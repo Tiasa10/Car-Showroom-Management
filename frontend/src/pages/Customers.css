@@ -1,0 +1,249 @@
+.customers-header {
+    margin-bottom: 30px;
+  }
+  
+  .customers-header h1 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .customers-header p {
+    color: #64748b;
+  }
+  
+  .customer-form-card {
+
+    background-color: #111827;
+  
+    border-radius: 24px;
+  
+    padding: 30px;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    gap: 18px;
+  
+    margin-bottom: 35px;
+  
+  }
+  
+  .customer-form-card input,
+  .customer-form-card select {
+    padding: 16px;
+  
+    border-radius: 14px;
+  
+    border: none;
+  
+    background-color: #1f2937;
+  
+    color: white;
+  }
+  
+  .customer-form-card button {
+    padding: 16px;
+  
+    border-radius: 14px;
+  
+    border: none;
+  
+    background: linear-gradient(
+      135deg,
+      #00e0ff,
+      #00b8d9
+    );
+  
+    color: black;
+  
+    font-weight: 700;
+  
+    cursor: pointer;
+  }
+  
+  .customers-grid {
+    display: grid;
+  
+    grid-template-columns:
+    repeat(3, 1fr);
+  
+    gap: 28px;
+  }
+  
+  .customer-card {
+    background-color: #111827;
+  
+    border-radius: 24px;
+  
+    padding: 26px;
+  
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  
+  .customer-card h2 {
+    color: white;
+    margin-bottom: 18px;
+  }
+  
+  .customer-card p {
+
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 10px;
+  
+    line-height: 1.6;
+  
+    word-break: break-word;
+  
+  }
+  
+  .customer-status-row {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+  }
+  
+  .booking-badge,
+  .payment-badge {
+    padding: 8px 14px;
+  
+    border-radius: 12px;
+  
+    font-size: 14px;
+  
+    font-weight: 700;
+  }
+  
+  .booking-badge {
+    background-color:
+    rgba(255,176,32,0.12);
+  
+    color: #ffb020;
+  }
+  
+  .payment-badge {
+
+    background-color:
+    rgba(255,176,32,0.12);
+  
+    color: #ffb020;
+  
+  }
+
+  .customer-card {
+
+    transition: 0.3s;
+  
+  }
+  
+  .customer-card:hover {
+  
+    transform: translateY(-6px);
+  
+    border-color:
+    rgba(0,224,255,0.2);
+  
+  
+  
+    .paid-badge {
+
+      background-color:
+      rgba(0,255,140,0.12);
+    
+      color: #00ff8c;
+    
+      padding: 8px 14px;
+    
+      border-radius: 12px;
+    
+      font-weight: 700;
+    
+    }
+    
+    .pending-badge {
+    
+      background-color:
+      rgba(255,176,32,0.12);
+    
+      color: #ffb020;
+    
+      padding: 8px 14px;
+    
+      border-radius: 12px;
+    
+      font-weight: 700;
+    
+    }}
+
+    .confirmed-badge {
+
+      background-color:
+      rgba(0,255,140,0.12);
+    
+      color: #00ff8c;
+    
+      padding: 8px 14px;
+    
+      border-radius: 12px;
+    
+      font-weight: 700;
+    
+    }
+    
+    .pending-badge {
+    
+      background-color:
+      rgba(255,176,32,0.12);
+    
+      color: #ffb020;
+    
+      padding: 8px 14px;
+    
+      border-radius: 12px;
+    
+      font-weight: 700;
+    
+    }
+
+    .validation-box {
+
+      background-color:
+      rgba(255,255,255,0.03);
+    
+      padding: 14px;
+    
+      border-radius: 14px;
+    
+      margin-top: -10px;
+    
+    }
+    
+    .validation-box p {
+
+      margin-bottom: 8px;
+    
+    }
+    
+    .valid-rule {
+    
+      color: #00ff8c;
+    
+      font-size: 14px;
+    
+      margin-bottom: 4px;
+    
+    }
+    
+    .invalid-rule {
+    
+      color: #ff4d4d;
+    
+      font-size: 14px;
+    
+      margin-bottom: 4px;
+    
+    }

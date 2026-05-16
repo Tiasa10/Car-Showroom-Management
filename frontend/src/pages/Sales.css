@@ -1,0 +1,134 @@
+.sales-header {
+    margin-bottom: 30px;
+  }
+  
+  .sales-header h1 {
+    color: white;
+    font-size: 42px;
+  }
+  
+  .sales-header p {
+    color: #64748b;
+  }
+  
+  .sales-form {
+    background-color: #111827;
+  
+    border-radius: 24px;
+  
+    padding: 28px;
+  
+    display: grid;
+  
+    grid-template-columns:
+    repeat(2, 1fr);
+  
+    gap: 18px;
+  
+    margin-bottom: 35px;
+  }
+  
+  .sales-form input,
+  .sales-form select {
+    padding: 16px;
+  
+    border-radius: 14px;
+  
+    border: none;
+  
+    background-color: #1f2937;
+  
+    color: white;
+  }
+  
+  .sales-form button {
+    padding: 16px;
+  
+    border-radius: 14px;
+  
+    border: none;
+  
+    background: linear-gradient(
+      135deg,
+      #00e0ff,
+      #00b8d9
+    );
+  
+    color: black;
+  
+    font-weight: 700;
+  
+    cursor: pointer;
+  }
+  
+  .sales-calculation-box {
+    background-color:
+    rgba(255,255,255,0.03);
+  
+    border-radius: 16px;
+  
+    padding: 18px;
+  }
+  
+  .sales-calculation-box p {
+    color: white;
+    margin-bottom: 12px;
+  }
+  
+  .sales-grid {
+    display: grid;
+  
+    grid-template-columns:
+    repeat(3, 1fr);
+  
+    gap: 28px;
+  }
+  
+  .sale-card {
+    background-color: #111827;
+  
+    border-radius: 24px;
+  
+    padding: 24px;
+  
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  
+  .sale-card h2 {
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  .sale-card p {
+    color: #94a3b8;
+    margin-bottom: 12px;
+  }
+
+  .date-field {
+
+    display: flex;
+  
+    flex-direction: column;
+  
+    gap: 10px;
+  
+  }
+  
+  .date-field input {
+  
+    height: 58px;
+  
+  }
+
+  .small-field input {
+
+    height: 65px;
+    width: 300px;
+  
+  }
+  
+  .date-field input {
+  
+    height: 58px;
+  
+  }

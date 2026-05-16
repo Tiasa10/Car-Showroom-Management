@@ -1,0 +1,95 @@
+.settings-header {
+    margin-bottom: 35px;
+  }
+  
+  .settings-header h1 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .settings-header p {
+    color: #64748b;
+  }
+  
+  .settings-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  
+  .settings-card {
+    background-color: #111827;
+  
+    border-radius: 24px;
+  
+    padding: 30px;
+  
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  
+  .settings-card h2 {
+    color: white;
+    margin-bottom: 24px;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .settings-form input {
+    padding: 16px;
+  
+    border-radius: 14px;
+  
+    border: none;
+  
+    background-color: #1f2937;
+  
+    color: white;
+  }
+  
+  .settings-form button,
+  .theme-buttons button {
+    padding: 16px;
+  
+    border-radius: 14px;
+  
+    border: none;
+  
+    background: linear-gradient(
+      135deg,
+      #00e0ff,
+      #00b8d9
+    );
+  
+    color: black;
+  
+    font-weight: 700;
+  
+    cursor: pointer;
+  }
+  
+  .toggle-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .toggle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toggle-row p {
+    color: white;
+  }
+  
+  .theme-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }

@@ -11,8 +11,9 @@ const Car = require("../models/Car");
 router.post("/", async (req, res) => {
 
     try {
-
+        console.log(req.body);
         const newCar = new Car(req.body);
+        
 
         await newCar.save();
 
@@ -49,6 +50,28 @@ router.get("/", async (req, res) => {
 
 });
 
+
+
+router.delete("/:id", async (req, res) => {
+
+    try {
+
+        await Car.findByIdAndDelete(req.params.id);
+
+        res.json({
+            message: "Car Deleted Successfully"
+        });
+
+    } catch (error) {
+
+        res.status(500).json({
+            error: error.message
+        });
+
+    }
+
+});
+
 router.put("/:id", async (req, res) => {
 
     try {
@@ -62,26 +85,6 @@ router.put("/:id", async (req, res) => {
         res.json({
             message: "Car Updated Successfully",
             car: updatedCar
-        });
-
-    } catch (error) {
-
-        res.status(500).json({
-            error: error.message
-        });
-
-    }
-
-});
-
-router.delete("/:id", async (req, res) => {
-
-    try {
-
-        await Car.findByIdAndDelete(req.params.id);
-
-        res.json({
-            message: "Car Deleted Successfully"
         });
 
     } catch (error) {
